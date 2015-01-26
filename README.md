@@ -15,7 +15,7 @@ This project aims at cleaning the given data. As mentioned in activity_labels.tx
 
 ## Steps to work on this course project
 
-1. Download the data source and uncompress the given archive file to get the UCI HAR Dataset folder.
-2. Place ```run_analysis.R``` in the same folder where ```UCI HAR Dataset``` folder is and set the working directory using ```setwd()``` function in RStudio.
+1. Get the repository to local
+2. Set the working directory using ```setwd()``` function in RStudio to this repository folder
 3. Make sure the two dependent packages ```data.table``` and ```reshape2``` are already installed. Otherwise install them using the given commands install.packages("data.table") and install.packages("reshape2")
 4. Run ```source("run_analysis.R")``` to generate a new file ```tiny_data.txt``` in the working directory.
